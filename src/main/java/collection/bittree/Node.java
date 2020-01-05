@@ -1,4 +1,4 @@
-package collection;
+package collection.bittree;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +46,7 @@ public class Node {
         if (null != leftNode){
             values.addAll(leftNode.values());
         }
-        
+
         // 当前节点
         values.add(value);
 
@@ -59,6 +59,7 @@ public class Node {
     }
 
     public static void main(String[] args) {
+
         int randoms[] = new int[] { 67, 7, 30, 73, 10, 0, 78, 81, 10, 74 };
         Node node=new Node();
         for(Integer i:randoms){
