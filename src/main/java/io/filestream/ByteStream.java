@@ -6,11 +6,10 @@ import utils.LoggerUtils;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.util.Date;
 
-public class TestStream {
+public class ByteStream {
 
-    public static final Logger LOG=LoggerUtils.getLoggerEntity(TestStream.class);
+    public static final Logger LOG=LoggerUtils.getLoggerEntity(ByteStream.class);
 
     public static void main(String[] args) {
 

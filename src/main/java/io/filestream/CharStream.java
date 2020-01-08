@@ -11,6 +11,7 @@ public class CharStream {
             char [] all=new char[(int)file.length()];
             fr.read(all);
 
+            //当文件不存在时，自动创建该文件
             FileWriter fw=new FileWriter("/Volumes/Backup/text.txt");
             fw.write(all);
 
