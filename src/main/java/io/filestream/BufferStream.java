@@ -32,7 +32,7 @@ public class BufferStream {
             pw.flush();
 
 
-            
+
             long endTime=System.currentTimeMillis();
             LOG.info("拷贝创建新文件用时：{}",(endTime-startTime)+"ms");
         } catch (FileNotFoundException e) {
