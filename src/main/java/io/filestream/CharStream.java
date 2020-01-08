@@ -15,7 +15,6 @@ public class CharStream {
             FileWriter fw=new FileWriter("/Volumes/Backup/text.txt");
             fw.write(all);
 
-            fr.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
