@@ -47,7 +47,7 @@ public class ObjectStream {
             Hero newHero=(Hero) ois.readObject();
             LOG.info("写入文件对对象是：{}",hero.name);
             LOG.info("从文件读取出对对象是：{}",newHero.name);
-            
+
         }catch (Exception e){
             e.printStackTrace();
         }
