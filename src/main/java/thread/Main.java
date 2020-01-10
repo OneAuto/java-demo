@@ -50,12 +50,29 @@ public class Main {
             }
         };
 
+        Thread thread1=new Thread(){
+            @Override
+            public void run() {
+                try{
+                    for (int i=0;i<10;i++){
+                        long startTime=System.currentTimeMillis();
+                        Thread.sleep(1000);
+                        LOG.info("耗时：{}",(System.currentTimeMillis()-startTime)+"ms");
+                    }
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+
+            }
+        };
+
         thread.setPriority(Thread.MAX_PRIORITY);        //设置优先级最大
         th.setPriority(Thread.MIN_PRIORITY);        //设置优先级最小
         thread.join();      //加入主线程，等该线程完成后才能继续
         th.join();
         thread.start();
         th.start();
+        thread1.start();
 
         LOG.info("主线程最后执行");
     }
