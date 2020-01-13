@@ -8,11 +8,12 @@ import java.sql.SQLException;
 
 public class C3p0Utils {
     private static final Logger LOG= LoggerUtils.getLoggerEntity(C3p0Utils.class);
-    private static ComboPooledDataSource comboPooledDataSource=new ComboPooledDataSource("mysql5.7");
+    private static ComboPooledDataSource dataSource=new ComboPooledDataSource();
 
-    public static Connection getConnection(){
+
+    public  Connection getConnection(){
         try {
-            return comboPooledDataSource.getConnection();
+            return dataSource.getConnection();
         } catch (SQLException e) {
             LOG.error("Exception in C3p0Utils:",e);
             return null;
