@@ -1,0 +1,91 @@
+2020-01-06 19:14:18.093 [Thread-3] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2020-01-06 19:14:18.291 [Thread-3] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 /Volumes/Backup/桌面通用文件夹/java-demo/.idea/SmartIM/smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2020-01-06 19:14:18.291 [Thread-3] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2020-01-06 19:15:18.359 [Thread-3] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 验证二维码超时
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:188)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2020-01-06 19:19:55.568 [Thread-9] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2020-01-06 19:19:55.858 [Thread-9] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 /Volumes/Backup/桌面通用文件夹/java-demo/.idea/SmartIM/smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2020-01-06 19:19:55.858 [Thread-9] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2020-01-06 19:19:56.898 [Thread-9] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已失效，尝试重新获取二维码
+2020-01-06 19:19:56.898 [Thread-9] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 二维码已失效
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:184)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2020-01-06 19:20:22.231 [Thread-12] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2020-01-06 19:20:22.267 [Thread-12] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 /Volumes/Backup/桌面通用文件夹/java-demo/.idea/SmartIM/smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2020-01-06 19:20:22.267 [Thread-12] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2020-01-06 19:20:23.313 [Thread-12] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已失效，尝试重新获取二维码
+2020-01-06 19:20:23.314 [Thread-12] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 二维码已失效
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:184)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2020-01-06 19:21:10.523 [Thread-5] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2020-01-06 19:21:10.762 [Thread-5] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 /Volumes/Backup/桌面通用文件夹/java-demo/.idea/SmartIM/smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2020-01-06 19:21:10.763 [Thread-5] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2020-01-06 19:21:21.193 [Thread-5] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2020-01-06 19:21:21.193 [Thread-5] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2020-01-06 19:21:21.322 [Thread-5] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2020-01-06 19:21:21.351 [Thread-5] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.net.ConnectException: Failed to connect to s.web2.qq.com/0.0.0.1:443
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:225)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:149)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:195)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall.execute(RealCall.java:69)
+	at com.scienjus.smartqq.client.SmartQQApi.get(SmartQQApi.java:505)
+	at com.scienjus.smartqq.client.SmartQQApi.getVfwebqq(SmartQQApi.java:211)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:111)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+Caused by: java.net.ConnectException: No route to host (connect failed)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:124)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:223)
+	... 22 common frames omitted

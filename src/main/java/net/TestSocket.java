@@ -18,6 +18,10 @@ public class TestSocket {
         getPingLocalInfo();
     }
 
+    /**
+     * 获取ping信息返回打印
+     * @throws IOException
+     */
     public static void getPingLocalInfo() throws IOException {
 
         Process p = Runtime.getRuntime().exec("ping "+getLocalIp());
@@ -36,6 +40,7 @@ public class TestSocket {
     @Test
     public static String getLocalIp(){
         String ip=null;
+
         try {
             InetAddress host=InetAddress.getLocalHost();
             ip=host.getHostAddress();
