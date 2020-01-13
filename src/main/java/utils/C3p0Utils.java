@@ -1,8 +1,7 @@
-package utils.c3p0;
+package utils;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.slf4j.Logger;
-import utils.LoggerUtils;
 
 import java.sql.Connection;
 import java.sql.SQLException;
