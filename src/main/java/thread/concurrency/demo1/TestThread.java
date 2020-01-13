@@ -1,5 +1,10 @@
-package thread.concurrency;
+package thread.concurrency.demo1;
 
+import thread.concurrency.Hero;
+
+/**
+ * 如果一个类，其方法都有synchronized修饰的，那么该类称为线程安全的类
+ */
 public class TestThread {
 
     public static void main(String[] args) {
