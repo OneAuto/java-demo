@@ -9,16 +9,25 @@ import java.sql.SQLException;
 public class C3p0Utils {
     private static final Logger LOG= LoggerUtils.getLoggerEntity(C3p0Utils.class);
     private static ComboPooledDataSource dataSource=new ComboPooledDataSource();
-
+    private Connection conn=null;
 
     public  Connection getConnection(){
         try {
-            return dataSource.getConnection();
+            conn=dataSource.getConnection();
+            LOG.info("Get Connection successfu!");
+            return conn;
         } catch (SQLException e) {
-            LOG.error("Exception in C3p0Utils:",e);
+            LOG.error("Exception in C3p0Utils:{}",e);
             return null;
         }
     }
 
+    public void close()  {
+        try {
+            conn.close();
+        } catch (SQLException e) {
+            LOG.error("Exception in C3p0Utils:{}",e);
+        }
+    }
 
 }
