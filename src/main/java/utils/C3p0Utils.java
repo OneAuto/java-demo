@@ -22,13 +22,4 @@ public class C3p0Utils {
         }
     }
 
-    public void close()  {
-        try {
-
-            conn.close();
-        } catch (SQLException e) {
-            LOG.error("Exception in C3p0Utils:{}",e);
-        }
-    }
-
 }
