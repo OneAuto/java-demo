@@ -10,6 +10,15 @@ public class Product {
     private String name;
     private Double price;
 
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
     @Id
     @Column(name = "id", nullable = false)
     public int getId() {
