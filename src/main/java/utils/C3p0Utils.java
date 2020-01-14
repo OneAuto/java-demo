@@ -4,6 +4,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.slf4j.Logger;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class C3p0Utils {
@@ -20,6 +21,10 @@ public class C3p0Utils {
             LOG.error("Exception in C3p0Utils:{}",e);
             return null;
         }
+    }
+
+    public void createDB() throws SQLException {
+        PreparedStatement ps= getConnection().prepareStatement("show create");
     }
 
 }
