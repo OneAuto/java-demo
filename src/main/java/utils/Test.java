@@ -18,7 +18,7 @@ public class Test {
         } catch (SQLException e) {
             e.printStackTrace();
         }finally {
-            conn.close();
+           c.close();
         }
     }
 }

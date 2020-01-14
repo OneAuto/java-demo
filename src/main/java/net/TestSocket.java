@@ -1,6 +1,4 @@
 package net;
-
-import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import utils.LoggerUtils;
 
@@ -37,7 +35,7 @@ public class TestSocket {
         }
 
     }
-    @Test
+
     public static String getLocalIp(){
         String ip=null;
 
