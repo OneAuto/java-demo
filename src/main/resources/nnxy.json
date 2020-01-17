@@ -1,0 +1,679 @@
+[{
+	"id": "465b7a79fedd4dc78d94576235ecf4fb",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "66",
+	"intername": "广州医科--学生班级通讯录",
+	"isenble": "1"
+}, {
+	"id": "7058c90e85894442a6f9f594347b1312",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "67",
+	"intername": "广州医科--教师部门通讯录",
+	"isenble": "1"
+}, {
+	"id": "119f33572ebb486fa1b510494c247edc",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "68",
+	"intername": "学期课表查询",
+	"isenble": "1"
+}, {
+	"id": "32936daf8b50478e84eb92bd56d0f0f5",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "69",
+	"intername": "获取教师课表",
+	"isenble": "1"
+}, {
+	"id": "83a3c0cc1cb4469c9830e35dccf45ec0",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "70",
+	"intername": "获取评教批次（北林）",
+	"isenble": "1"
+}, {
+	"id": "d6f71b18a795446481c1b62426c7ee86",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "71",
+	"intername": "获取批次课程列表（北林）",
+	"isenble": "1"
+}, {
+	"id": "bcb1d7f42d1c4c2ab8de7e5ae316a50e",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "72",
+	"intername": "获取评价指标（北林）",
+	"isenble": "1"
+}, {
+	"id": "e0504a681e884b96a5d7aca0b3b31328",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "73",
+	"intername": "保存评价指标（北林）",
+	"isenble": "1"
+}, {
+	"id": "4bcb1c10e2ee4dafb99a4c264c5453c7",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "74",
+	"intername": "评价留言（北林）",
+	"isenble": "1"
+}, {
+	"id": "5fe509af5567482caac0a5711e9f7dde",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "75",
+	"intername": "留言保存（北林）",
+	"isenble": "1"
+}, {
+	"id": "5bb1ece3e1c049539c68096c3c7d1a3d",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "76",
+	"intername": "获取课程人数信息及考勤信息（长航）",
+	"isenble": "1"
+}, {
+	"id": "04f3ddf00ad94448b5d93379b7155bdf",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "77",
+	"intername": "获取考勤结论信息（长航）",
+	"isenble": "1"
+}, {
+	"id": "27c9927450624b968881707d84ead12e",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "78",
+	"intername": "批量点名保存（长航）",
+	"isenble": "1"
+}, {
+	"id": "16b7df19ae944b83aad4731bf2203fd6",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "79",
+	"intername": "考勤记录查询（长航）",
+	"isenble": "1"
+}, {
+	"id": "f0bafcb97ac149349ad1a1c9808050aa",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "80",
+	"intername": "考勤记录删除（长航）",
+	"isenble": "1"
+}, {
+	"id": "27909f6fd70249ddac2307543251c52d",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "81",
+	"intername": "获取选课轮次是否是志愿选课（北林）",
+	"isenble": "1"
+}, {
+	"id": "2f631eaa5469439a8e665179bfc1c695",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "82",
+	"intername": "获取全校公选课已选志愿（北林）",
+	"isenble": "1"
+}, {
+	"id": "110ad7e77ff34ebb8d26eef05912a534",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "83",
+	"intername": "获取项目名称（北林）",
+	"isenble": "1"
+}, {
+	"id": "189a9681ed744357a86ac3805347029b",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "84",
+	"intername": "获取教师（广西电力）",
+	"isenble": "1"
+}, {
+	"id": "c76a6d2a92784450b70b43dede167561",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "85",
+	"intername": "获取课程（广西电力）",
+	"isenble": "1"
+}, {
+	"id": "ad0433248cc3453cadfcc810cc9cd548",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "86",
+	"intername": "获取教材（广西电力）",
+	"isenble": "1"
+}, {
+	"id": "4c808ee8ace549c4abff4dbf1e341bd5",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "87",
+	"intername": "保存教材选用（广西电力）",
+	"isenble": "1"
+}, {
+	"id": "abe67f62281046d69af0ef5b0b21755e",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "88",
+	"intername": "查询教师选用的教材（广西电力）",
+	"isenble": "1"
+}, {
+	"id": "912d8f9038cd4f9e94936ee2d2e50d3d",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "89",
+	"intername": "获取选课伦次是否是志愿选课（北林）",
+	"isenble": "1"
+}, {
+	"id": "65a0378760d347c6800107804fd758ed",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "90",
+	"intername": "获取体育必修已选志愿和可选志愿（北林）",
+	"isenble": "1"
+}, {
+	"id": "09977284845d476ebebfc7e1ead6a3f3",
+	"createDate": "2019-01-18 19:09:25",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "91",
+	"intername": "调课可用时间（北林）",
+	"isenble": "1"
+}, {
+	"id": "22c2e9bc9f1a47fe9e1c9db9ac503ce5",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "01",
+	"interurl": "http://jw.nnxy.cn/app.do?method=authUser",
+	"intername": "用户认证",
+	"interpara": "&xh={xh}&pwd={pwd}",
+	"isenble": "1"
+}, {
+	"id": "dc517af432a44f9c88ca30f5e833e38c",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "02",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getUserInfo",
+	"intername": "用户信息",
+	"interpara": "&xh={xh}",
+	"isenble": "1"
+}, {
+	"id": "22bd7b7aa1e34fccafb225b34fa9cfbe",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "04",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getKscx",
+	"intername": "考试查询",
+	"interpara": "&xh={xh}&xnxqid={xnxqid}",
+	"isenble": "1"
+}, {
+	"id": "c37ce09b50324ac2ba108ceeb3bb722c",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "05",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getKbcxAzc",
+	"intername": "课表查询",
+	"interpara": "&xh={xh}&xnxqid={xnxqid}&zc={zc}",
+	"isenble": "1"
+}, {
+	"id": "0023d9b0366144588ad21a09abeab588",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "06",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getEarlyWarnInfo",
+	"intername": "学籍预警",
+	"interpara": "&xh={xh}&history={history}",
+	"isenble": "1"
+}, {
+	"id": "ebe6cf8f7f6a4be4983e73da3ff0df52",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "07",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getXqcx",
+	"intername": "校区查询",
+	"isenble": "1"
+}, {
+	"id": "c62f2841e06547f8952c8027b08e4500",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "08",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getYxcx",
+	"intername": "院系查询",
+	"isenble": "1"
+}, {
+	"id": "5df4bb46b1444cfda4de3faea0fef4e0",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "09",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getZycx",
+	"intername": "专业查询",
+	"isenble": "1"
+}, {
+	"id": "674796b6623345968bd1724083677285",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "10",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getJxlcx",
+	"intername": "教学楼查询",
+	"interpara": "&xqid={xqid}",
+	"isenble": "1"
+}, {
+	"id": "15d4256f9450456eaaed0aedc37c0f52",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "11",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getGnqcx",
+	"intername": "功能区",
+	"isenble": "1"
+}, {
+	"id": "a1fab472a8ca4f93b98e7275b104e888",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "12",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getKxJscx",
+	"intername": "教室查询",
+	"interpara": "&time={time}&idleTime={iTime}&xqid={xqid}&jxlid={jxlid}&classroomNumber={num}",
+	"isenble": "1"
+}, {
+	"id": "c0f54bc66dab44269e48454d1c75cd13",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "13",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getXnxq",
+	"intername": "学年学期",
+	"interpara": "&xh={xh}",
+	"isenble": "1"
+}, {
+	"id": "fcf120de5a1c4d95b3f59b6477ca3a49",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "14",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getCurrentTime",
+	"intername": "根椐当前日期得到学期与日期",
+	"interpara": "&currDate={currDate}",
+	"isenble": "1"
+}, {
+	"id": "3216843910724688983c183964df426e",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "15",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getXnxq",
+	"intername": "获取系统学年学期(学号)",
+	"interpara": "&xh={xh}",
+	"isenble": "1"
+}, {
+	"id": "e89162d0ac144029abc6eaa5cd7d9b5f",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "19",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getDict",
+	"intername": "字典列表",
+	"interpara": "&xh={xh}&dictName={dictName}",
+	"isenble": "1"
+}, {
+	"id": "09053e9bef8e4d1d848befb6f564a2b4",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "21",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getAnnouncementCategory",
+	"intername": "获取公告类别",
+	"interpara": "&xh={xh}",
+	"isenble": "1"
+}, {
+	"id": "3b4b2eaae5e24ec29457320e075d5f26",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "22",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getAnnouncementList",
+	"intername": "获取用户类别公告",
+	"interpara": "&xh={xh}&gglbid={gglbid}",
+	"isenble": "1"
+}, {
+	"id": "82a0e0fa7dbe43808be33aa07282a1cd",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "23",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getLeaveCommentList",
+	"intername": "获取个人留言列表",
+	"interpara": "&xh={xh}",
+	"isenble": "1"
+}, {
+	"id": "f196849ba42649b59c2b12d4af0219f2",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "24",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getLeaveCommentContent",
+	"intername": "获取留言详细内容",
+	"interpara": "&xh={xh}&ggid={ggid}",
+	"isenble": "1"
+}, {
+	"id": "08cb709898f64f96b937436b5e5b4f23",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "25",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getAnnouncementContent",
+	"intername": "获取公告详细内容",
+	"interpara": "&xh={xh}&ggid={ggid}",
+	"isenble": "1"
+}, {
+	"id": "858f2fe31ac046e8a7eb1acfb6ba0c51",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "31",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getPjpcList",
+	"intername": "评教批次选择条件",
+	"interpara": "&xh={xh}&xnxqid={xnxqid}",
+	"isenble": "1"
+}, {
+	"id": "458cc845069c4fab93dfd6039cef210e",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "32",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getPjList",
+	"intername": "评价批次列表",
+	"interpara": "&xh={xh}&pj0502id={pj0502id}",
+	"isenble": "1"
+}, {
+	"id": "10e6f610a5b04f05b3cba8155835270a",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "33",
+	"interurl": "http://jw.nnxy.cn/app.do?method=showpjZbInfo",
+	"intername": "展示评价指标信息",
+	"isenble": "1"
+}, {
+	"id": "58bb98557c7949f59fb3c1f28bb8e2ec",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "34",
+	"interurl": "http://jw.nnxy.cn/app.do?method=saveXspj",
+	"intername": "保存指标信息",
+	"isenble": "1"
+}, {
+	"id": "a7e5a0168bb04b6d94bd0256b05773ba",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "36",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getStudentIdInfo",
+	"intername": "获取学生信息(推送专用)",
+	"interpara": "&xh={xh}",
+	"isenble": "1"
+}, {
+	"id": "a0281e9b3b1d4e5c835d8c7d615f73d0",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "37",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getJsKbcxAzc",
+	"intername": "教师课表",
+	"interpara": "&xh={xh}&xnxqid={xnxqid}&zc={zc}",
+	"isenble": "1"
+}, {
+	"id": "25ff5294d5c7433bb714a0eec8bdc4e3",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "39",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getCjcxByjs",
+	"intername": "教师查询学生成绩",
+	"isenble": "1"
+}, {
+	"id": "e89a773daa54432880c3b3c0185ccfa7",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "40",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getJsKscx",
+	"intername": "教师查询考试",
+	"isenble": "1"
+}, {
+	"id": "ef1643aa39d840448b543aaec87c92a8",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "45",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getZzd",
+	"intername": "获取字典表数据",
+	"isenble": "1"
+}, {
+	"id": "6b8b259088b94d4eb9995d8fde8348e5",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "46",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getPjjgByjs",
+	"intername": "获取评教结果按教师",
+	"isenble": "1"
+}, {
+	"id": "c0ab5ef722104358b16eac7d1e00fe07",
+	"createDate": "2017-10-10 09:32:15",
+	"updateDate": "2019-01-18 19:09:25",
+	"office": {
+		"id": "8ae68f47c4ee4b7888f39d6c6f79b686",
+		"name": "南宁学院"
+	},
+	"intercode": "47",
+	"interurl": "http://jw.nnxy.cn/app.do?method=getPjjgByjskc",
+	"intername": "获取评教结果按教师课程",
+	"isenble": "1"
+}]
