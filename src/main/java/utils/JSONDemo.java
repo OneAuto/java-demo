@@ -57,6 +57,6 @@ class InterfaceRequest {
                 "application/x-www-form-urlencoded;charset=UTF-8");
         connection.connect();
         return (HttpURLConnection) connection;
-        // TODO Auto-generated method stub
+
     }
 }
