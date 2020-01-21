@@ -31,8 +31,7 @@
     <property name="show_sql">true</property>
     <property name="hbm2ddl.auto">update</property>
     <mapping resource="Product.hbm.xml" />
-      <mapping resource="Product.hbm.xml"/>
-      <mapping class="orm.Product"/>
+    <mapping class="orm.Product"/>
   </session-factory>
 
 </hibernate-configuration>
