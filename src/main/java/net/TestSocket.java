@@ -8,12 +8,14 @@ import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.Scanner;
 
 public class TestSocket {
 
     private static final Logger LOG= LoggerUtils.getLoggerEntity(TestSocket.class);
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {getPingLocalInfo();
+
     }
 
 
@@ -90,9 +92,15 @@ public class TestSocket {
         Socket s=ss.accept();
         InputStream is=s.getInputStream();
         BufferedReader br=new BufferedReader(new InputStreamReader(is));
-        while (br.read()!=-1){
-            LOG.info("收到客户端信息：{}",br.readLine());
-        }
+        char [] arr=new char[5];
+        br.read(arr);
+        LOG.info("收到客户端消息：{}",new String(arr));
+        br.close();
+     //   OutputStream os=s.getOutputStream();
+     //   BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(os));
+     //   bw.write("我是服务端！我已收到你的消息了！");
+
+
 
         s.close();
         ss.close();
@@ -103,7 +111,13 @@ public class TestSocket {
         Socket s=new Socket(InetAddress.getLocalHost().getHostAddress(),8080);
         LOG.info("客户端：{}",InetAddress.getLocalHost().getHostAddress());
         OutputStream os=s.getOutputStream();
-        os.write("你好！我是客户端！".getBytes());
-
+        os.write("hanbi".getBytes());
+        os.flush();
+    //    InputStream is=s.getInputStream();
+      //  BufferedReader br=new BufferedReader(new InputStreamReader(is));
+        //while (br.read()!=-1){
+          //  LOG.info("服务端反馈：{}",br.readLine());
+        //}
+        s.close();
     }
 }
