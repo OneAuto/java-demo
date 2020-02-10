@@ -90,10 +90,10 @@ public class TestSocket {
         Socket s=ss.accept();
         InputStream is=s.getInputStream();
         BufferedReader br=new BufferedReader(new InputStreamReader(is));
-        StringBuffer sb=new StringBuffer();
+        while (br.read()!=-1){
+            LOG.info("收到客户端信息：{}",br.readLine());
+        }
 
-     
-        br.close();
         s.close();
         ss.close();
     }

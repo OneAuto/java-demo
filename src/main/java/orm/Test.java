@@ -5,15 +5,15 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 import utils.C3p0Utils;
+import utils.MySQLSessionFactory;
 
 import java.sql.Connection;
 
 public class Test {
     public static void main(String[] args) {
 
-        SessionFactory sf = new Configuration().configure().buildSessionFactory();
 
-        Session s = sf.openSession();
+        Session s = MySQLSessionFactory.getSession();
         s.beginTransaction();
 
         Product p = new Product();
@@ -22,7 +22,6 @@ public class Test {
         s.save(p);
 
         s.getTransaction().commit();
-        s.close();
-        sf.close();
+        MySQLSessionFactory.closeFactory();
     }
 }
