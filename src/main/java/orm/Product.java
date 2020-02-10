@@ -6,26 +6,18 @@ import java.util.Objects;
 @Entity
 @Table(name = "product_", schema = "test", catalog = "")
 public class Product {
-    private int id;
+    private Integer id;
     private String name;
     private Double price;
 
-    @Override
-    public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                '}';
-    }
-
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -54,7 +46,7 @@ public class Product {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Product product = (Product) o;
-        return id == product.id &&
+        return Objects.equals(id, product.id) &&
                 Objects.equals(name, product.name) &&
                 Objects.equals(price, product.price);
     }
