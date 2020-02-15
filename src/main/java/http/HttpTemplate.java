@@ -13,7 +13,7 @@ import java.net.HttpURLConnection;
 public class HttpTemplate {
     static final Logger LOG= LoggerUtils.getLoggerEntity(HttpTemplate.class);
     private final static String URL = "http://jw.nnxy.cn/app.do?method=authUser&xh=20181004095&pwd=fengge123";
-    private final static String url="http://jw.nnxy.cn/app.do?method=getCjcx&xh=20181004116";
+    private final static String url="http://jwgl.sdust.edu.cn/app.do?method=getCjcx&xh=201801140926&xnxqid=";
     public static void main(String[] args) {
         String response= HttpRequest.get(URL).body();
         LOG.info("json：{}",response);
