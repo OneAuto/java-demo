@@ -6,6 +6,7 @@ import java.lang.reflect.Constructor;
 import java.time.temporal.ChronoField;
 
 public class Test {
+
     @org.junit.Test
     public void test1(){
         //通过传统机制创建一个对象
@@ -23,10 +24,17 @@ public class Test {
             Class clazz2=Hero.class;
             Class clazz3=hero.getClass();
 
+            //JVM内存中只有一个Class类对象
+            System.out.println(clazz1 == clazz2);
+            System.out.println(clazz2==clazz3);
+            System.out.println(clazz1 == clazz3);
+
             //构造器
             Constructor p1=clazz1.getConstructor();
             Constructor p2=clazz2.getConstructor();
             Constructor p3=clazz3.getConstructor();
+
+
 
             //通过构造器是实例化
 
